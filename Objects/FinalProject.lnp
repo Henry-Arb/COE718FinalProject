@@ -1,9 +1,11 @@
 --cpu Cortex-M3
 ".\objects\main.o"
-".\objects\snake.o"
 ".\objects\kbd.o"
 ".\objects\glcd_spi_lpc1700.o"
 ".\objects\led.o"
+".\objects\snake.o"
+".\objects\game_menu.o"
+".\objects\pong.o"
 "C:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
 ".\objects\rtx_conf_cm.o"
 ".\objects\gpio_lpc17xx.o"

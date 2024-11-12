@@ -388,11 +388,6 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
-            <File>
-              <FileName>snake.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\snake.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -420,6 +415,26 @@
         </Group>
         <Group>
           <GroupName>Image Viewer</GroupName>
+        </Group>
+        <Group>
+          <GroupName>Games</GroupName>
+          <Files>
+            <File>
+              <FileName>snake.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\snake.c</FilePath>
+            </File>
+            <File>
+              <FileName>game_menu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\game_menu.c</FilePath>
+            </File>
+            <File>
+              <FileName>pong.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\pong.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
