@@ -4,5 +4,6 @@
 // Function prototypes for starting different games
 void startSnakeGame();
 void startPongGame();
+void launchGameMenu();
 
 #endif  // GAMEMENU_H

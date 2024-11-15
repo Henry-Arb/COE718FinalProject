@@ -1,17 +1,22 @@
 --cpu Cortex-M3
 ".\objects\main.o"
+".\objects\adcuser.o"
+".\objects\usbcore.o"
+".\objects\usbdesc.o"
+".\objects\usbdmain.o"
+".\objects\usbhw.o"
+".\objects\usbuser.o"
 ".\objects\kbd.o"
 ".\objects\glcd_spi_lpc1700.o"
 ".\objects\led.o"
 ".\objects\snake.o"
 ".\objects\game_menu.o"
 ".\objects\pong.o"
-"C:\Users\henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
-".\objects\rtx_conf_cm.o"
-".\objects\gpio_lpc17xx.o"
-".\objects\pin_lpc17xx.o"
+".\objects\core_cm3.o"
 ".\objects\startup_lpc17xx.o"
 ".\objects\system_lpc17xx.o"
+"C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
 --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\FinalProject.map" -o .\Objects\FinalProject.axf
