@@ -1,0 +1,11 @@
+.\objects\snake.o: snake.c
+.\objects\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\snake.o: LPC17xx.h
+.\objects\snake.o: .\inc\core_cm3.h
+.\objects\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\snake.o: system_LPC17xx.h
+.\objects\snake.o: KBD.h
+.\objects\snake.o: GLCD.h
+.\objects\snake.o: LED.h
+.\objects\snake.o: game_menu.h

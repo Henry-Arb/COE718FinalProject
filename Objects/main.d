@@ -1,0 +1,11 @@
+.\objects\main.o: main.c
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: game_menu.h
+.\objects\main.o: GLCD.h
+.\objects\main.o: KBD.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: usb_audio.h
+.\objects\main.o: photo_viewer.h
+.\objects\main.o: music_icon.h
+.\objects\main.o: utilities.h

@@ -1,0 +1,152 @@
+Dependencies for Project 'FinalProject', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6743DBAF)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+I (game_menu.h)(0x6743CFA7)
+I (GLCD.h)(0x6743C79B)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (usb_audio.h)(0x6743C79C)
+I (photo_viewer.h)(0x6743C79C)
+I (music_icon.h)(0x6743DB6A)
+I (utilities.h)(0x6743D2FA)
+F (.\KBD.c)(0x6743C79B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\kbd.o --omf_browse .\objects\kbd.crf --depend .\objects\kbd.d)
+I (.\inc\LPC17xx.H)(0x6743C79D)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\inc\system_LPC17xx.h)(0x6743C79D)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+F (.\GLCD_SPI_LPC1700.c)(0x6743C79B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\glcd_spi_lpc1700.o --omf_browse .\objects\glcd_spi_lpc1700.crf --depend .\objects\glcd_spi_lpc1700.d)
+I (.\inc\lpc17xx.h)(0x6743C79D)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\inc\system_LPC17xx.h)(0x6743C79D)
+I (GLCD.h)(0x6743C79B)
+I (Font_6x8_h.h)(0x6743C79B)
+I (Font_16x24_h.h)(0x6743C79B)
+F (.\LED.c)(0x6743C79B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (LPC17xx.h)(0x6743C79B)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (system_LPC17xx.h)(0x6743C79C)
+I (LED.h)(0x6743C79B)
+F (.\utilities.h)(0x6743D2FA)()
+F (.\utilties.c)(0x6743D2DF)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\utilties.o --omf_browse .\objects\utilties.crf --depend .\objects\utilties.d)
+I (utilities.h)(0x6743D2FA)
+F (.\src\core_cm3.c)(0x6743C79D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+F (.\src\startup_LPC17xx.s)(0x6743C79D)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (.\src\system_LPC17xx.c)(0x6743C79D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\inc\LPC17xx.h)(0x6743C79D)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (.\inc\system_LPC17xx.h)(0x6743C79D)
+F (.\adcuser.c)(0x6743C79B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\adcuser.o --omf_browse .\objects\adcuser.crf --depend .\objects\adcuser.d)
+I (type.h)(0x6743C79C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (usb.h)(0x6743C79C)
+I (audio.h)(0x6743C79B)
+I (usbcfg.h)(0x6743C79C)
+I (usbcore.h)(0x6743C79C)
+I (adcuser.h)(0x6743C79B)
+I (usbaudio.h)(0x6743C79C)
+F (.\usbcore.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\usbcore.o --omf_browse .\objects\usbcore.crf --depend .\objects\usbcore.d)
+I (type.h)(0x6743C79C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (usb.h)(0x6743C79C)
+I (usbcfg.h)(0x6743C79C)
+I (usbhw.h)(0x6743C79C)
+I (usbcore.h)(0x6743C79C)
+I (usbdesc.h)(0x6743C79C)
+I (usbuser.h)(0x6743C79C)
+I (audio.h)(0x6743C79B)
+I (adcuser.h)(0x6743C79B)
+F (.\usbdesc.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\usbdesc.o --omf_browse .\objects\usbdesc.crf --depend .\objects\usbdesc.d)
+I (type.h)(0x6743C79C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (usb.h)(0x6743C79C)
+I (audio.h)(0x6743C79B)
+I (usbcfg.h)(0x6743C79C)
+I (usbdesc.h)(0x6743C79C)
+F (.\usbdmain.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\usbdmain.o --omf_browse .\objects\usbdmain.crf --depend .\objects\usbdmain.d)
+I (LPC17xx.h)(0x6743C79B)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (system_LPC17xx.h)(0x6743C79C)
+I (type.h)(0x6743C79C)
+I (usb.h)(0x6743C79C)
+I (usbcfg.h)(0x6743C79C)
+I (usbhw.h)(0x6743C79C)
+I (usbcore.h)(0x6743C79C)
+I (usbaudio.h)(0x6743C79C)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+I (usb_audio.h)(0x6743C79C)
+F (.\usbhw.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\usbhw.o --omf_browse .\objects\usbhw.crf --depend .\objects\usbhw.d)
+I (LPC17xx.h)(0x6743C79B)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (system_LPC17xx.h)(0x6743C79C)
+I (type.h)(0x6743C79C)
+I (usb.h)(0x6743C79C)
+I (usbcfg.h)(0x6743C79C)
+I (usbreg.h)(0x6743C79C)
+I (usbhw.h)(0x6743C79C)
+I (usbcore.h)(0x6743C79C)
+I (usbuser.h)(0x6743C79C)
+F (.\usbuser.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\usbuser.o --omf_browse .\objects\usbuser.crf --depend .\objects\usbuser.d)
+I (type.h)(0x6743C79C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (usb.h)(0x6743C79C)
+I (usbcfg.h)(0x6743C79C)
+I (usbhw.h)(0x6743C79C)
+I (usbcore.h)(0x6743C79C)
+I (usbuser.h)(0x6743C79C)
+I (usbaudio.h)(0x6743C79C)
+F (.\photo_viewer.c)(0x6743DB9D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\photo_viewer.o --omf_browse .\objects\photo_viewer.crf --depend .\objects\photo_viewer.d)
+I (GLCD.h)(0x6743C79B)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+I (photo_viewer.h)(0x6743C79C)
+I (ferrari.h)(0x6743DB5A)
+I (mclaren.h)(0x6743DB5F)
+I (utilities.h)(0x6743D2FA)
+I (porsche.h)(0x6743DB64)
+F (.\photo_viewer.h)(0x6743C79C)()
+F (.\ferrari.h)(0x6743DB5A)()
+F (.\mclaren.h)(0x6743DB5F)()
+F (.\porsche.h)(0x6743DB64)()
+F (.\music_icon.h)(0x6743DB6A)()
+F (.\game_menu.h)(0x6743CFA7)()
+F (.\game_menu.c)(0x6743CFC1)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\game_menu.o --omf_browse .\objects\game_menu.crf --depend .\objects\game_menu.d)
+I (game_menu.h)(0x6743CFA7)
+I (GLCD.h)(0x6743C79B)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+F (.\snake.c)(0x6743C79C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\snake.o --omf_browse .\objects\snake.crf --depend .\objects\snake.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+I (LPC17xx.h)(0x6743C79B)
+I (.\inc\core_cm3.h)(0x6743C79D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (system_LPC17xx.h)(0x6743C79C)
+I (KBD.h)(0x6743C79B)
+I (GLCD.h)(0x6743C79B)
+I (LED.h)(0x6743C79B)
+I (game_menu.h)(0x6743CFA7)
+F (.\quizlet.c)(0x6743D819)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\inc-IC:\Users\henry\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -DLPC175x_6x-o .\objects\quizlet.o --omf_browse .\objects\quizlet.crf --depend .\objects\quizlet.d)
+I (KBD.h)(0x6743C79B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025CC34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025CC34)
+I (GLCD.h)(0x6743C79B)
+I (game_menu.h)(0x6743CFA7)
+I (utilities.h)(0x6743D2FA)
